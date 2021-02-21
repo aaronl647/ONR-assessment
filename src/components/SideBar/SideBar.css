@@ -1,0 +1,19 @@
+.left-navbar-container {
+  align-items: center;
+  background-color: var(--color-primary-dark);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 4.5rem;
+  z-index: 3;
+}
+
+.menu-icon {
+  border-bottom: 2px solid var(--color-primary-darker);
+  padding: 2rem;
+  height: 2rem;
+  width: 2rem;
+}
