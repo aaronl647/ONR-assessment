@@ -10,7 +10,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Nav } from "react-bootstrap";
 import "./SideBar.css";
 
-function SideBar() {
+export default function SideBar() {
   return (
     <div className="left-navbar-container">
       <Nav.Link className="menu-icon">
@@ -31,5 +31,3 @@ function SideBar() {
     </div>
   );
 }
-
-export default SideBar;

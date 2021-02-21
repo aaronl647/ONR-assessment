@@ -1,7 +1,9 @@
 import React, { useEffect } from "react";
 import * as d3 from "d3";
 
-function DonutChart({ id, data, selected, onClick }) {
+import "./DonutChart.css";
+
+export default function DonutChart({ id, data, selected, onClick }) {
   useEffect(() => {
     d3.select(`#donut-chart-${id} svg`).remove();
 
@@ -42,6 +44,7 @@ function DonutChart({ id, data, selected, onClick }) {
       .attr("d", arc)
       .attr("fill", (d) => colors(d.data));
   }, [selected, id, data]);
+
   return (
     <div
       id={`donut-chart-${id}`}
@@ -76,5 +79,3 @@ function DonutChart({ id, data, selected, onClick }) {
     </div>
   );
 }
-
-export default DonutChart;

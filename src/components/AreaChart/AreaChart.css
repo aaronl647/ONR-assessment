@@ -1,0 +1,15 @@
+.area-chart__axis-x {
+  font: 1.4rem sans-serif;
+}
+
+.area-chart__axis-x path,
+.area-chart__axis-x line {
+  fill: none;
+  shape-rendering: crispEdges;
+  stroke: var(--color-gray);
+}
+
+.area-chart__area {
+  fill: url(#area-gradient);
+  stroke-width: 1rem;
+}

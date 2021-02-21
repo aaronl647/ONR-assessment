@@ -9,7 +9,7 @@ import {
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./NavBar.css";
 
-function NavBar() {
+export default function NavBar() {
   return (
     <div className="NavBar-container">
       <div className="title">Diagnostic Tool</div>
@@ -30,5 +30,3 @@ function NavBar() {
     </div>
   );
 }
-
-export default NavBar;

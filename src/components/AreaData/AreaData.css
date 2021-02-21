@@ -1,0 +1,16 @@
+.area-data {
+  display: flex;
+  flex-direction: column;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10rem;
+}
+
+.buttonGroup {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}

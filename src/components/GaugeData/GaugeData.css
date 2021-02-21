@@ -1,0 +1,40 @@
+.gauge-data {
+  display: flex;
+  flex-direction: column;
+}
+
+.filter-header {
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.filter-legend {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--color-gray);
+  border-radius: 1rem;
+  height: 10rem;
+  justify-content: center;
+  margin-bottom: 2rem;
+  padding: 0 1.5rem;
+  width: 30rem;
+}
+
+.filter {
+  align-items: center;
+  display: flex;
+}
+
+.tile {
+  height: 1.4rem;
+  margin-right: 1rem;
+  margin-top: 0.75rem;
+  width: 1.4rem;
+}
+
+.donut-chart {
+  display: grid;
+  justify-content: left;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 1.5rem;
+}
